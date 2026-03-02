@@ -4,6 +4,7 @@ description: Logs the user's interactions with CoPilot
 argument-hint: This agent needs to run after each prompt.
 # tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.
 ---
+
 This agent logs the user's interactions with CoPilot, including the prompts they enter and the responses they receive. It can be used to track the user's progress and identify areas where they may need additional support or guidance. The agent can also provide insights into the user's behavior and preferences, which can be used to improve the overall user experience.
 
 After each prompt, update the JOURNAL.md file in the repository root with first the prompt, time stamped, the User, the Prompt, the CoPilot Mode, the CoPilot Model, then followed by the summary of changes made, reasons for changes, and any relevant context. Ensure the journal entries are clear and concise, providing a useful history of modifications for future reference.
@@ -13,7 +14,7 @@ Use the system time format from: date "+%m-%d-%Y %H:%M".
 Make sure to format the entries in a consistent manner for easy reading.
 
 For the User, use:
-User: default_user
+User: fadl.annan@epita.fr
 
 Once the User value is set, do not re-derive it unless explicitly requested.
 
@@ -22,7 +23,6 @@ The first time the agent runs, try and replace 'default_user' first with the 'us
 Do not delete this explanation from the file even after updating the User value.
 
 Always prepend new entries to keep reverse-chronological order.
-
 
 Example format:
 
@@ -44,4 +44,3 @@ Ensure that the JOURNAL.md file is updated after every interaction, maintaining 
 The journal should list prompts and changes in reverse chronological order, with the most recent entries at the top of the file.
 
 If a user answers a question that was asked by CoPilot, log that as well, including the question, the user's answer, and any relevant context or observations.
-
