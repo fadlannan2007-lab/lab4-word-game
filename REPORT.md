@@ -102,7 +102,7 @@ AI suggestions are useful as a starting point, but they should always be verifie
 AI helped speed up some parts of development, such as generating documentation and suggesting possible implementations.
 
 ## Did you feel in control of the code?
-Yes. The final decisions about the structure and implementation were made manually after reviewing suggestions.
+Yes The final decisions about the structure and implementation were made manually after reviewing suggestions.
 
 ## Would you use AI the same way next time? What would you change?
-Yes, but I would focus on using AI more for explanations and brainstorming rather than directly copying generated code.
+Yes, I would use AI again to help generate ideas or outline my work. I’d be more careful in evaluating its suggestions and adding my own perspective.
