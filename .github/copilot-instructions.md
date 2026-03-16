@@ -1,6 +1,6 @@
 ---
 description: These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelines.
-# applyTo: 'These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelines.' # when provided, instructions will automatically be added to the request context when the pattern matches an attached file
+# applyTo: 'These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelineaes.' # when provided, instructions will automatically be added to the request context when the pattern matches an attached file
 ---
 
 ## Absolutely Critical: Do Not Deviate from These Instructions
